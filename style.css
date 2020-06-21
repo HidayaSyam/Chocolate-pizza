@@ -97,7 +97,7 @@ main p {
     color: rgb(207, 204, 204);
 }
 
-main div img{
+main  div img{
     padding-top: 10px;
     width: 100%;
 }
@@ -134,4 +134,45 @@ form fieldset:nth-child(2) {
    
 }
 
+section{
+    height: 350px;
+}
 
+.third-sec img{
+    padding-left: 25px;
+    width: 70px;
+}
+.third-sec div h2{
+    margin-left: 110px;
+    margin-top: -50px;
+}
+.third-sec div p{
+    margin-left: 110px;
+    margin-top: 0px;
+    color: black;
+}
+
+.third-sec div button{
+    float: right;
+    margin-top: -50px;
+    height: 50px;
+    padding-right: 15px;
+    background-color: chocolate;
+    box-shadow: none;
+    border: none;
+}
+
+footer{
+    margin-top: 120px;
+}
+footer img{
+    margin-left: 50%;
+}
+
+footer p{
+    margin-left: 40%;
+}
+footer p:nth-child(2)
+{
+    margin-left:420px;
+}
